@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="libraries/ethers-5.0.umd.min.js"></script>
     <script src="libraries/jquery-3.5.1.min.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/ml5.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <title>WOTF coin!</title>
 </head>
 <body>
-    <h1>WOTF Coin</h1>
+    <video class="bgvid" src="video/bgvid_large_1.mp4" autoplay muted></video>
+
+    <div class="wrapper">
+
+        <!-- <h1 class="text_title">WOTF Coin</h1> -->
+        <img class="title" src="images/butterfly.png" alt="butterfly">
+
+        <div id="sketch"></div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,3 +1,26 @@
 h1{
     color: green;
 }
+
+.bgvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#sketch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    width: 10vmin;
+    margin: 0 auto;
+    display: block;
+}
